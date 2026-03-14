@@ -1,0 +1,6 @@
+# KiCAD
+fp-info-cache
+# KiCAD 6
+*-backups/
+\#auto_saved_files#
+~*.lck
