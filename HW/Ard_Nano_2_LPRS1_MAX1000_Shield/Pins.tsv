@@ -1,0 +1,30 @@
+Port pin	Ard pin	MAX1000 pin	Shield fun
+			
+			
+		AIN0	i_pb_up
+		AIN1	i_pb_center
+		AIN2	i_pb_down
+		AIN3	i_pb_left
+	D12	AIN4	i_pb_right
+		AIN5	i_pb_rst
+			
+	D9	D0	o_n_col_0_or_7segm_a
+		D1	o_n_col_1_or_7segm_b
+		D2	o_n_col_2_or_7segm_c
+		D3	o_n_col_3_or_7segm_d
+		D4	o_n_col_4_or_7segm_e
+	D4	D5	o_n_col_5_or_7segm_f
+	A5	D6	o_n_col_6_or_7segm_g
+		D7	o_n_col_7_or_7segm_dp
+		D8	o_mux_row_or_digit_0
+		D9	o_mux_row_or_digit_1
+		D10	o_mux_row_or_digit_2
+	A0	D11	o_mux_sel_color_or_7segm_0
+	D10	D12	o_mux_sel_color_or_7segm_1
+			
+			
+	D0	Free to use	
+	D1	Free to use	
+	D2	Free to use	
+	D3	Free to use	
+	D13	Free to use	
