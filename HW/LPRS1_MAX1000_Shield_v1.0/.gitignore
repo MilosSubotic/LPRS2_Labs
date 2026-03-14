@@ -1,6 +1,6 @@
 # KiCAD
-*.bak
-*.kicad_pcb-bak
 fp-info-cache
-*.xml
-*.csv
+# KiCAD 6
+*-backups/
+\#auto_saved_files#
+~*.lck
