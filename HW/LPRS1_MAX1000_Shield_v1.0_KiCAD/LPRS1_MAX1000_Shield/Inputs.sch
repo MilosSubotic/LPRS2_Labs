@@ -1,0 +1,1195 @@
+EESchema Schematic File Version 4
+LIBS:LPRS1_MAX1000_Shield-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R100
+U 1 1 5B806511
+P 6550 1900
+F 0 "R100" V 6343 1900 50  0000 C CNN
+F 1 "10k" V 6434 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6480 1900 50  0001 C CNN
+F 3 "~" H 6550 1900 50  0001 C CNN
+F 4 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 5 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    6550 1900
+	0    1    1    0   
+$EndComp
+Text Label 5900 2200 1    50   ~ 0
+SW0
+$Comp
+L power:GND #PWR088
+U 1 1 5B806E67
+P 5900 2700
+F 0 "#PWR088" H 5900 2450 50  0001 C CNN
+F 1 "GND" H 6050 2700 50  0000 C CNN
+F 2 "" H 5900 2700 50  0001 C CNN
+F 3 "" H 5900 2700 50  0001 C CNN
+	1    5900 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2700 5900 2650
+Wire Wire Line
+	6300 2150 6300 1900
+Wire Wire Line
+	6300 1900 5750 1900
+Wire Wire Line
+	6300 2350 6300 2850
+Wire Wire Line
+	6300 2850 5750 2850
+Entry Wire Line
+	5800 1700 5900 1800
+$Comp
+L power:+3V3 #PWR090
+U 1 1 5B8076A9
+P 6800 1900
+F 0 "#PWR090" H 6800 1750 50  0001 C CNN
+F 1 "+3V3" V 6800 2100 50  0000 C CNN
+F 2 "" H 6800 1900 50  0001 C CNN
+F 3 "" H 6800 1900 50  0001 C CNN
+	1    6800 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 1900 6800 1900
+Text Label 5350 2200 1    50   ~ 0
+SW1
+$Comp
+L power:GND #PWR085
+U 1 1 5B80814B
+P 5350 2700
+F 0 "#PWR085" H 5350 2450 50  0001 C CNN
+F 1 "GND" H 5500 2700 50  0000 C CNN
+F 2 "" H 5350 2700 50  0001 C CNN
+F 3 "" H 5350 2700 50  0001 C CNN
+	1    5350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2700 5350 2650
+Wire Wire Line
+	5750 2150 5750 1900
+Wire Wire Line
+	5750 1900 5200 1900
+Wire Wire Line
+	5750 2350 5750 2850
+Wire Wire Line
+	5750 2850 5200 2850
+Entry Wire Line
+	5250 1700 5350 1800
+Connection ~ 5750 1900
+Connection ~ 5750 2850
+Connection ~ 5200 2850
+Connection ~ 5200 1900
+Text Label 4800 2200 1    50   ~ 0
+SW2
+$Comp
+L power:GND #PWR084
+U 1 1 5B808485
+P 4800 2700
+F 0 "#PWR084" H 4800 2450 50  0001 C CNN
+F 1 "GND" H 4950 2700 50  0000 C CNN
+F 2 "" H 4800 2700 50  0001 C CNN
+F 3 "" H 4800 2700 50  0001 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2700 4800 2650
+Wire Wire Line
+	5200 2150 5200 1900
+Wire Wire Line
+	5200 1900 4650 1900
+Wire Wire Line
+	5200 2350 5200 2850
+Wire Wire Line
+	5200 2850 4650 2850
+Entry Wire Line
+	4700 1700 4800 1800
+Text Label 4250 2200 1    50   ~ 0
+SW3
+$Comp
+L power:GND #PWR081
+U 1 1 5B8084A6
+P 4250 2700
+F 0 "#PWR081" H 4250 2450 50  0001 C CNN
+F 1 "GND" H 4400 2700 50  0000 C CNN
+F 2 "" H 4250 2700 50  0001 C CNN
+F 3 "" H 4250 2700 50  0001 C CNN
+	1    4250 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2700 4250 2650
+Wire Wire Line
+	4650 2150 4650 1900
+Wire Wire Line
+	4650 1900 4100 1900
+Wire Wire Line
+	4650 2350 4650 2850
+Wire Wire Line
+	4650 2850 4100 2850
+Entry Wire Line
+	4150 1700 4250 1800
+Connection ~ 4650 1900
+Connection ~ 4650 2850
+Text Label 3700 2200 1    50   ~ 0
+SW4
+$Comp
+L power:GND #PWR079
+U 1 1 5B808AA6
+P 3700 2700
+F 0 "#PWR079" H 3700 2450 50  0001 C CNN
+F 1 "GND" H 3850 2700 50  0000 C CNN
+F 2 "" H 3700 2700 50  0001 C CNN
+F 3 "" H 3700 2700 50  0001 C CNN
+	1    3700 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2700 3700 2650
+Wire Wire Line
+	4100 2150 4100 1900
+Wire Wire Line
+	4100 1900 3550 1900
+Wire Wire Line
+	4100 2350 4100 2850
+Wire Wire Line
+	4100 2850 3550 2850
+Entry Wire Line
+	3600 1700 3700 1800
+Text Label 3150 2200 1    50   ~ 0
+SW5
+$Comp
+L power:GND #PWR072
+U 1 1 5B808AC7
+P 3150 2700
+F 0 "#PWR072" H 3150 2450 50  0001 C CNN
+F 1 "GND" H 3300 2700 50  0000 C CNN
+F 2 "" H 3150 2700 50  0001 C CNN
+F 3 "" H 3150 2700 50  0001 C CNN
+	1    3150 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2700 3150 2650
+Wire Wire Line
+	3550 2150 3550 1900
+Wire Wire Line
+	3550 1900 3000 1900
+Wire Wire Line
+	3550 2350 3550 2850
+Wire Wire Line
+	3550 2850 3000 2850
+Entry Wire Line
+	3050 1700 3150 1800
+Connection ~ 3550 1900
+Connection ~ 3550 2850
+Text Label 2600 2200 1    50   ~ 0
+SW6
+$Comp
+L power:GND #PWR071
+U 1 1 5B809738
+P 2600 2700
+F 0 "#PWR071" H 2600 2450 50  0001 C CNN
+F 1 "GND" H 2750 2700 50  0000 C CNN
+F 2 "" H 2600 2700 50  0001 C CNN
+F 3 "" H 2600 2700 50  0001 C CNN
+	1    2600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2700 2600 2650
+Wire Wire Line
+	3000 2150 3000 1900
+Wire Wire Line
+	3000 1900 2450 1900
+Wire Wire Line
+	3000 2350 3000 2850
+Wire Wire Line
+	3000 2850 2450 2850
+Entry Wire Line
+	2500 1700 2600 1800
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 5B809748
+P 2250 2250
+F 0 "SW2" H 2250 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 2250 2444 50  0000 C CNN
+F 2 "Local_Modules:OS102011MS2QN1" H 2250 2250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 2250 2250 50  0001 C CNN
+F 4 "OS102011MS2QN1" H 2250 2250 50  0001 C CNN "OC"
+F 5 "TME" H 2250 2250 50  0001 C CNN "Distributor"
+F 6 "Slide switch" H 2300 2650 50  0000 C CNN "Comment"
+	1    2250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5B809750
+P 2050 2500
+F 0 "C18" H 2165 2591 50  0000 L CNN
+F 1 "0u1" H 2165 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2088 2350 50  0001 C CNN
+F 3 "~" H 2050 2500 50  0001 C CNN
+F 4 "Debouncing capacitor" V 1900 2150 50  0000 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    2050 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2350 2050 2250
+Text Label 2050 2200 1    50   ~ 0
+SW7
+$Comp
+L power:GND #PWR069
+U 1 1 5B809759
+P 2050 2700
+F 0 "#PWR069" H 2050 2450 50  0001 C CNN
+F 1 "GND" H 2200 2700 50  0000 C CNN
+F 2 "" H 2050 2700 50  0001 C CNN
+F 3 "" H 2050 2700 50  0001 C CNN
+	1    2050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2700 2050 2650
+Wire Wire Line
+	2450 2150 2450 1900
+Wire Wire Line
+	2450 2350 2450 2850
+Entry Wire Line
+	1950 1700 2050 1800
+Wire Wire Line
+	2050 2250 2050 1800
+Connection ~ 2050 2250
+Text Label 1350 1700 0    50   ~ 0
+SW[0..7]
+Connection ~ 6300 1900
+$Comp
+L Device:R R101
+U 1 1 5B814506
+P 6550 2850
+F 0 "R101" V 6343 2850 50  0000 C CNN
+F 1 "10k" V 6434 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6480 2850 50  0001 C CNN
+F 3 "~" H 6550 2850 50  0001 C CNN
+F 4 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 5 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    6550 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 1900 6300 1900
+Wire Wire Line
+	6400 2850 6300 2850
+Connection ~ 6300 2850
+$Comp
+L power:GND #PWR091
+U 1 1 5B8251B1
+P 6800 2850
+F 0 "#PWR091" H 6800 2600 50  0001 C CNN
+F 1 "GND" V 6805 2722 50  0000 R CNN
+F 2 "" H 6800 2850 50  0001 C CNN
+F 3 "" H 6800 2850 50  0001 C CNN
+	1    6800 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 2850 6700 2850
+Text Notes 6500 2450 0    50   ~ 0
+These two resistors are to prevent current surge\nwhen charging/discharging debouncing capacitor,\nas well short circuiting betweew contacts 1 and 3\nif switch is shorting i.e. make and brake type.
+Wire Wire Line
+	2600 1800 2600 2250
+Wire Wire Line
+	3150 1800 3150 2250
+Wire Wire Line
+	3700 1800 3700 2250
+Wire Wire Line
+	4800 1800 4800 2250
+Wire Wire Line
+	5350 1800 5350 2250
+Wire Wire Line
+	5900 1800 5900 2250
+$Comp
+L Switch:SW_SPDT SW3
+U 1 1 5B829009
+P 2800 2250
+F 0 "SW3" H 2800 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 2800 2444 50  0000 C CNN
+F 2 "Local_Modules:OS102011MS2QN1" H 2800 2250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 2800 2250 50  0001 C CNN
+F 4 "OS102011MS2QN1" H 2800 2250 50  0001 C CNN "OC"
+F 5 "TME" H 2800 2250 50  0001 C CNN "Distributor"
+F 6 "Slide switch" H 2800 2250 50  0001 C CNN "Comment"
+	1    2800 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 2250
+Wire Wire Line
+	2600 2250 2600 2350
+$Comp
+L Switch:SW_SPDT SW4
+U 1 1 5B8290ED
+P 3350 2250
+F 0 "SW4" H 3350 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 3350 2444 50  0000 C CNN
+F 2 "Local_Modules:OS102011MS2QN1" H 3350 2250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 3350 2250 50  0001 C CNN
+F 4 "OS102011MS2QN1" H 3350 2250 50  0001 C CNN "OC"
+F 5 "TME" H 3350 2250 50  0001 C CNN "Distributor"
+F 6 "Slide switch" H 3350 2250 50  0001 C CNN "Comment"
+	1    3350 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 2250
+Wire Wire Line
+	3150 2250 3150 2350
+$Comp
+L Switch:SW_SPDT SW8
+U 1 1 5B829250
+P 3900 2250
+F 0 "SW8" H 3900 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 3900 2444 50  0000 C CNN
+F 2 "Local_Modules:OS102011MS2QN1" H 3900 2250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 3900 2250 50  0001 C CNN
+F 4 "OS102011MS2QN1" H 3900 2250 50  0001 C CNN "OC"
+F 5 "TME" H 3900 2250 50  0001 C CNN "Distributor"
+F 6 "Slide switch" H 3900 2250 50  0001 C CNN "Comment"
+	1    3900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW9
+U 1 1 5B82A176
+P 4450 2250
+F 0 "SW9" H 4450 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 4450 2444 50  0000 C CNN
+F 2 "Local_Modules:OS102011MS2QN1" H 4450 2250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 4450 2250 50  0001 C CNN
+F 4 "OS102011MS2QN1" H 4450 2250 50  0001 C CNN "OC"
+F 5 "TME" H 4450 2250 50  0001 C CNN "Distributor"
+F 6 "Slide switch" H 4450 2250 50  0001 C CNN "Comment"
+	1    4450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW10
+U 1 1 5B82B0E5
+P 5000 2250
+F 0 "SW10" H 5000 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 5000 2444 50  0000 C CNN
+F 2 "Local_Modules:OS102011MS2QN1" H 5000 2250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 5000 2250 50  0001 C CNN
+F 4 "OS102011MS2QN1" H 5000 2250 50  0001 C CNN "OC"
+F 5 "TME" H 5000 2250 50  0001 C CNN "Distributor"
+F 6 "Slide switch" H 5000 2250 50  0001 C CNN "Comment"
+	1    5000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW11
+U 1 1 5B82BFFD
+P 5550 2250
+F 0 "SW11" H 5550 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 5550 2444 50  0000 C CNN
+F 2 "Local_Modules:OS102011MS2QN1" H 5550 2250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 5550 2250 50  0001 C CNN
+F 4 "OS102011MS2QN1" H 5550 2250 50  0001 C CNN "OC"
+F 5 "TME" H 5550 2250 50  0001 C CNN "Distributor"
+F 6 "Slide switch" H 5550 2250 50  0001 C CNN "Comment"
+	1    5550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW13
+U 1 1 5B82CF16
+P 6100 2250
+F 0 "SW13" H 6100 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 6100 2444 50  0000 C CNN
+F 2 "Local_Modules:OS102011MS2QN1" H 6100 2250 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 6100 2250 50  0001 C CNN
+F 4 "OS102011MS2QN1" H 6100 2250 50  0001 C CNN "OC"
+F 5 "TME" H 6100 2250 50  0001 C CNN "Distributor"
+F 6 "Slide switch" H 6100 2250 50  0001 C CNN "Comment"
+	1    6100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5B82DED6
+P 2600 2500
+F 0 "C20" H 2715 2591 50  0000 L CNN
+F 1 "0u1" H 2715 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2638 2350 50  0001 C CNN
+F 3 "~" H 2600 2500 50  0001 C CNN
+F 4 "Debouncing capacitor" V 2450 2150 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    2600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5B82E103
+P 3150 2500
+F 0 "C21" H 3265 2591 50  0000 L CNN
+F 1 "0u1" H 3265 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3188 2350 50  0001 C CNN
+F 3 "~" H 3150 2500 50  0001 C CNN
+F 4 "Debouncing capacitor" V 3000 2150 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    3150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 5B82F028
+P 3700 2500
+F 0 "C22" H 3815 2591 50  0000 L CNN
+F 1 "0u1" H 3815 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 2350 50  0001 C CNN
+F 3 "~" H 3700 2500 50  0001 C CNN
+F 4 "Debouncing capacitor" V 3550 2150 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    3700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 5B82FF4C
+P 4250 2500
+F 0 "C23" H 4365 2591 50  0000 L CNN
+F 1 "0u1" H 4365 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4288 2350 50  0001 C CNN
+F 3 "~" H 4250 2500 50  0001 C CNN
+F 4 "Debouncing capacitor" V 4100 2150 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    4250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 5B830E6D
+P 4800 2500
+F 0 "C27" H 4915 2591 50  0000 L CNN
+F 1 "0u1" H 4915 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4838 2350 50  0001 C CNN
+F 3 "~" H 4800 2500 50  0001 C CNN
+F 4 "Debouncing capacitor" V 4650 2150 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    4800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 5B831D97
+P 5350 2500
+F 0 "C28" H 5465 2591 50  0000 L CNN
+F 1 "0u1" H 5465 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5388 2350 50  0001 C CNN
+F 3 "~" H 5350 2500 50  0001 C CNN
+F 4 "Debouncing capacitor" V 5200 2150 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    5350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 5B832CC2
+P 5900 2500
+F 0 "C29" H 6015 2591 50  0000 L CNN
+F 1 "0u1" H 6015 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 2350 50  0001 C CNN
+F 3 "~" H 5900 2500 50  0001 C CNN
+F 4 "Debouncing capacitor" V 5750 2150 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    5900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2350 4250 2250
+Wire Wire Line
+	4250 2250 4250 1800
+Connection ~ 4250 2250
+Connection ~ 4800 2250
+Wire Wire Line
+	4800 2250 4800 2350
+Connection ~ 5350 2250
+Wire Wire Line
+	5350 2250 5350 2350
+Connection ~ 5900 2250
+Wire Wire Line
+	5900 2250 5900 2350
+Connection ~ 3700 2250
+Wire Wire Line
+	3700 2250 3700 2350
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5B83660A
+P 3650 4350
+F 0 "SW6" H 3650 4635 50  0000 C CNN
+F 1 "SW_Push" H 3650 4544 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3650 4550 50  0001 C CNN
+F 3 "https://www.tme.eu/gb/Document/997bac45434b6fe2edea26397beb0aa3/TACT-67-DTE.pdf" H 3650 4550 50  0001 C CNN
+F 4 "Push button" H 0   0   50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "TACT-67N-F" H 0   0   50  0001 C CNN "OC"
+	1    3650 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R96
+U 1 1 5B836BE7
+P 4050 4350
+F 0 "R96" V 3843 4350 50  0000 C CNN
+F 1 "10k" V 3934 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3980 4350 50  0001 C CNN
+F 3 "~" H 4050 4350 50  0001 C CNN
+F 4 "Push button resistor" V 4050 4350 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    4050 4350
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR074
+U 1 1 5B836DAF
+P 3400 4350
+F 0 "#PWR074" H 3400 4200 50  0001 C CNN
+F 1 "+3V3" V 3400 4550 50  0000 C CNN
+F 2 "" H 3400 4350 50  0001 C CNN
+F 3 "" H 3400 4350 50  0001 C CNN
+	1    3400 4350
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3450 4350 3400 4350
+Wire Wire Line
+	3850 4350 3900 4350
+$Comp
+L power:GND #PWR077
+U 1 1 5B84091A
+P 3450 4650
+F 0 "#PWR077" H 3450 4400 50  0001 C CNN
+F 1 "GND" V 3455 4522 50  0000 R CNN
+F 2 "" H 3450 4650 50  0001 C CNN
+F 3 "" H 3450 4650 50  0001 C CNN
+	1    3450 4650
+	0    1    -1   0   
+$EndComp
+Text Notes 6550 3500 0    50   ~ 0
+t = RC_mult*R*C\nwhere RC_mult = 4 for 98.2% charged capacitor\nC = 0u1, R = 1k -> t = 400us\nC = 0u1, R = 10k -> t = 4ms
+Wire Wire Line
+	3450 4650 3550 4650
+Wire Wire Line
+	3850 4650 3850 4350
+Connection ~ 3850 4350
+$Comp
+L power:GND #PWR082
+U 1 1 5B849813
+P 4250 4650
+F 0 "#PWR082" H 4250 4400 50  0001 C CNN
+F 1 "GND" V 4255 4522 50  0000 R CNN
+F 2 "" H 4250 4650 50  0001 C CNN
+F 3 "" H 4250 4650 50  0001 C CNN
+	1    4250 4650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4250 4650 4350 4650
+Wire Wire Line
+	4350 4350 4200 4350
+$Comp
+L Device:C C25
+U 1 1 5B8368F7
+P 4350 4500
+F 0 "C25" H 4500 4550 50  0000 L CNN
+F 1 "0u1" H 4500 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 4350 50  0001 C CNN
+F 3 "~" H 4350 4500 50  0001 C CNN
+F 4 "Debouncing capacitor" V 4200 4150 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    4350 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R93
+U 1 1 5B85884C
+P 3700 4650
+F 0 "R93" V 3493 4650 50  0000 C CNN
+F 1 "10k" V 3584 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 4650 50  0001 C CNN
+F 3 "~" H 3700 4650 50  0001 C CNN
+F 4 "Push button resistor" V 3700 4650 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    3700 4650
+	0    -1   1    0   
+$EndComp
+Text HLabel 4450 4350 2    50   Output ~ 0
+PB_UP
+Wire Wire Line
+	4450 4350 4350 4350
+Connection ~ 4350 4350
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5B85FE69
+P 3650 5500
+F 0 "SW7" H 3650 5785 50  0000 C CNN
+F 1 "SW_Push" H 3650 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3650 5700 50  0001 C CNN
+F 3 "https://www.tme.eu/gb/Document/997bac45434b6fe2edea26397beb0aa3/TACT-67-DTE.pdf" H 3650 5700 50  0001 C CNN
+F 4 "Push button" H 0   0   50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "TACT-67N-F" H 0   0   50  0001 C CNN "OC"
+	1    3650 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R97
+U 1 1 5B85FE71
+P 4050 5500
+F 0 "R97" V 3843 5500 50  0000 C CNN
+F 1 "10k" V 3934 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3980 5500 50  0001 C CNN
+F 3 "~" H 4050 5500 50  0001 C CNN
+F 4 "Push button resistor" V 4050 5500 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    4050 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR075
+U 1 1 5B85FE78
+P 3400 5500
+F 0 "#PWR075" H 3400 5350 50  0001 C CNN
+F 1 "+3V3" V 3400 5700 50  0000 C CNN
+F 2 "" H 3400 5500 50  0001 C CNN
+F 3 "" H 3400 5500 50  0001 C CNN
+	1    3400 5500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3450 5500 3400 5500
+Wire Wire Line
+	3850 5500 3900 5500
+$Comp
+L power:GND #PWR078
+U 1 1 5B85FE80
+P 3450 5800
+F 0 "#PWR078" H 3450 5550 50  0001 C CNN
+F 1 "GND" V 3455 5672 50  0000 R CNN
+F 2 "" H 3450 5800 50  0001 C CNN
+F 3 "" H 3450 5800 50  0001 C CNN
+	1    3450 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3450 5800 3550 5800
+Wire Wire Line
+	3850 5800 3850 5500
+Connection ~ 3850 5500
+$Comp
+L power:GND #PWR083
+U 1 1 5B85FE89
+P 4250 5800
+F 0 "#PWR083" H 4250 5550 50  0001 C CNN
+F 1 "GND" V 4255 5672 50  0000 R CNN
+F 2 "" H 4250 5800 50  0001 C CNN
+F 3 "" H 4250 5800 50  0001 C CNN
+	1    4250 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4250 5800 4350 5800
+Wire Wire Line
+	4350 5500 4200 5500
+$Comp
+L Device:C C26
+U 1 1 5B85FE92
+P 4350 5650
+F 0 "C26" H 4500 5700 50  0000 L CNN
+F 1 "0u1" H 4500 5600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 5500 50  0001 C CNN
+F 3 "~" H 4350 5650 50  0001 C CNN
+F 4 "Debouncing capacitor" V 4200 5300 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    4350 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R94
+U 1 1 5B85FE9A
+P 3700 5800
+F 0 "R94" V 3493 5800 50  0000 C CNN
+F 1 "10k" V 3584 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 5800 50  0001 C CNN
+F 3 "~" H 3700 5800 50  0001 C CNN
+F 4 "Push button resistor" V 3700 5800 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    3700 5800
+	0    -1   1    0   
+$EndComp
+Text HLabel 4450 5500 2    50   Output ~ 0
+PB_CENTER
+Wire Wire Line
+	4450 5500 4350 5500
+Connection ~ 4350 5500
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5B8618A8
+P 3600 6600
+F 0 "SW5" H 3600 6885 50  0000 C CNN
+F 1 "SW_Push" H 3600 6794 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3600 6800 50  0001 C CNN
+F 3 "https://www.tme.eu/gb/Document/997bac45434b6fe2edea26397beb0aa3/TACT-67-DTE.pdf" H 3600 6800 50  0001 C CNN
+F 4 "Push button" H 0   0   50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "TACT-67N-F" H 0   0   50  0001 C CNN "OC"
+	1    3600 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R95
+U 1 1 5B8618B0
+P 4000 6600
+F 0 "R95" V 3793 6600 50  0000 C CNN
+F 1 "10k" V 3884 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3930 6600 50  0001 C CNN
+F 3 "~" H 4000 6600 50  0001 C CNN
+F 4 "Push button resistor" V 4000 6600 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    4000 6600
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR073
+U 1 1 5B8618B7
+P 3350 6600
+F 0 "#PWR073" H 3350 6450 50  0001 C CNN
+F 1 "+3V3" V 3350 6800 50  0000 C CNN
+F 2 "" H 3350 6600 50  0001 C CNN
+F 3 "" H 3350 6600 50  0001 C CNN
+	1    3350 6600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3400 6600 3350 6600
+Wire Wire Line
+	3800 6600 3850 6600
+$Comp
+L power:GND #PWR076
+U 1 1 5B8618BF
+P 3400 6900
+F 0 "#PWR076" H 3400 6650 50  0001 C CNN
+F 1 "GND" V 3405 6772 50  0000 R CNN
+F 2 "" H 3400 6900 50  0001 C CNN
+F 3 "" H 3400 6900 50  0001 C CNN
+	1    3400 6900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3400 6900 3500 6900
+Wire Wire Line
+	3800 6900 3800 6600
+Connection ~ 3800 6600
+$Comp
+L power:GND #PWR080
+U 1 1 5B8618C8
+P 4200 6900
+F 0 "#PWR080" H 4200 6650 50  0001 C CNN
+F 1 "GND" V 4205 6772 50  0000 R CNN
+F 2 "" H 4200 6900 50  0001 C CNN
+F 3 "" H 4200 6900 50  0001 C CNN
+	1    4200 6900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4200 6900 4300 6900
+Wire Wire Line
+	4300 6600 4150 6600
+$Comp
+L Device:C C24
+U 1 1 5B8618D1
+P 4300 6750
+F 0 "C24" H 4450 6800 50  0000 L CNN
+F 1 "0u1" H 4450 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4338 6600 50  0001 C CNN
+F 3 "~" H 4300 6750 50  0001 C CNN
+F 4 "Debouncing capacitor" V 4150 6400 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    4300 6750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R92
+U 1 1 5B8618D9
+P 3650 6900
+F 0 "R92" V 3443 6900 50  0000 C CNN
+F 1 "10k" V 3534 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3580 6900 50  0001 C CNN
+F 3 "~" H 3650 6900 50  0001 C CNN
+F 4 "Push button resistor" V 3650 6900 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    3650 6900
+	0    -1   1    0   
+$EndComp
+Text HLabel 4400 6600 2    50   Output ~ 0
+PB_DOWN
+Wire Wire Line
+	4400 6600 4300 6600
+Connection ~ 4300 6600
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5B8637D6
+P 1550 5500
+F 0 "SW1" H 1550 5785 50  0000 C CNN
+F 1 "SW_Push" H 1550 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 1550 5700 50  0001 C CNN
+F 3 "https://www.tme.eu/gb/Document/997bac45434b6fe2edea26397beb0aa3/TACT-67-DTE.pdf" H 1550 5700 50  0001 C CNN
+F 4 "Push button" H 0   0   50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "TACT-67N-F" H 0   0   50  0001 C CNN "OC"
+	1    1550 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R91
+U 1 1 5B8637DE
+P 1950 5500
+F 0 "R91" V 1743 5500 50  0000 C CNN
+F 1 "10k" V 1834 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1880 5500 50  0001 C CNN
+F 3 "~" H 1950 5500 50  0001 C CNN
+F 4 "Push button resistor" V 1950 5500 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    1950 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR067
+U 1 1 5B8637E5
+P 1300 5500
+F 0 "#PWR067" H 1300 5350 50  0001 C CNN
+F 1 "+3V3" V 1300 5700 50  0000 C CNN
+F 2 "" H 1300 5500 50  0001 C CNN
+F 3 "" H 1300 5500 50  0001 C CNN
+	1    1300 5500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1350 5500 1300 5500
+Wire Wire Line
+	1750 5500 1800 5500
+$Comp
+L power:GND #PWR068
+U 1 1 5B8637ED
+P 1350 5800
+F 0 "#PWR068" H 1350 5550 50  0001 C CNN
+F 1 "GND" V 1355 5672 50  0000 R CNN
+F 2 "" H 1350 5800 50  0001 C CNN
+F 3 "" H 1350 5800 50  0001 C CNN
+	1    1350 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1350 5800 1450 5800
+Wire Wire Line
+	1750 5800 1750 5500
+Connection ~ 1750 5500
+$Comp
+L power:GND #PWR070
+U 1 1 5B8637F6
+P 2150 5800
+F 0 "#PWR070" H 2150 5550 50  0001 C CNN
+F 1 "GND" V 2155 5672 50  0000 R CNN
+F 2 "" H 2150 5800 50  0001 C CNN
+F 3 "" H 2150 5800 50  0001 C CNN
+	1    2150 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2150 5800 2250 5800
+Wire Wire Line
+	2250 5500 2100 5500
+$Comp
+L Device:C C19
+U 1 1 5B8637FF
+P 2250 5650
+F 0 "C19" H 2400 5700 50  0000 L CNN
+F 1 "0u1" H 2400 5600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2288 5500 50  0001 C CNN
+F 3 "~" H 2250 5650 50  0001 C CNN
+F 4 "Debouncing capacitor" V 2100 5300 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    2250 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R90
+U 1 1 5B863807
+P 1600 5800
+F 0 "R90" V 1393 5800 50  0000 C CNN
+F 1 "10k" V 1484 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1530 5800 50  0001 C CNN
+F 3 "~" H 1600 5800 50  0001 C CNN
+F 4 "Push button resistor" V 1600 5800 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    1600 5800
+	0    -1   1    0   
+$EndComp
+Text HLabel 2350 5500 2    50   Output ~ 0
+PB_LEFT
+Wire Wire Line
+	2350 5500 2250 5500
+Connection ~ 2250 5500
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5B865C95
+P 5750 5500
+F 0 "SW12" H 5750 5785 50  0000 C CNN
+F 1 "SW_Push" H 5750 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 5750 5700 50  0001 C CNN
+F 3 "https://www.tme.eu/gb/Document/997bac45434b6fe2edea26397beb0aa3/TACT-67-DTE.pdf" H 5750 5700 50  0001 C CNN
+F 4 "Push button" H 0   0   50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "TACT-67N-F" H 0   0   50  0001 C CNN "OC"
+	1    5750 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R99
+U 1 1 5B865C9D
+P 6150 5500
+F 0 "R99" V 5943 5500 50  0000 C CNN
+F 1 "10k" V 6034 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 5500 50  0001 C CNN
+F 3 "~" H 6150 5500 50  0001 C CNN
+F 4 "Push button resistor" V 6150 5500 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    6150 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR086
+U 1 1 5B865CA4
+P 5500 5500
+F 0 "#PWR086" H 5500 5350 50  0001 C CNN
+F 1 "+3V3" V 5500 5700 50  0000 C CNN
+F 2 "" H 5500 5500 50  0001 C CNN
+F 3 "" H 5500 5500 50  0001 C CNN
+	1    5500 5500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5550 5500 5500 5500
+Wire Wire Line
+	5950 5500 6000 5500
+$Comp
+L power:GND #PWR087
+U 1 1 5B865CAC
+P 5550 5800
+F 0 "#PWR087" H 5550 5550 50  0001 C CNN
+F 1 "GND" V 5555 5672 50  0000 R CNN
+F 2 "" H 5550 5800 50  0001 C CNN
+F 3 "" H 5550 5800 50  0001 C CNN
+	1    5550 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5550 5800 5650 5800
+Wire Wire Line
+	5950 5800 5950 5500
+Connection ~ 5950 5500
+$Comp
+L power:GND #PWR089
+U 1 1 5B865CB5
+P 6350 5800
+F 0 "#PWR089" H 6350 5550 50  0001 C CNN
+F 1 "GND" V 6355 5672 50  0000 R CNN
+F 2 "" H 6350 5800 50  0001 C CNN
+F 3 "" H 6350 5800 50  0001 C CNN
+	1    6350 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6350 5800 6450 5800
+Wire Wire Line
+	6450 5500 6300 5500
+$Comp
+L Device:C C30
+U 1 1 5B865CBE
+P 6450 5650
+F 0 "C30" H 6600 5700 50  0000 L CNN
+F 1 "0u1" H 6600 5600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6488 5500 50  0001 C CNN
+F 3 "~" H 6450 5650 50  0001 C CNN
+F 4 "Debouncing capacitor" V 6300 5300 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    6450 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R98
+U 1 1 5B865CC6
+P 5800 5800
+F 0 "R98" V 5593 5800 50  0000 C CNN
+F 1 "10k" V 5684 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5730 5800 50  0001 C CNN
+F 3 "~" H 5800 5800 50  0001 C CNN
+F 4 "Push button resistor" V 5800 5800 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    5800 5800
+	0    -1   1    0   
+$EndComp
+Text HLabel 6550 5500 2    50   Output ~ 0
+PB_RIGHT
+Wire Wire Line
+	6550 5500 6450 5500
+Connection ~ 6450 5500
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5B8687D2
+P 8150 5500
+F 0 "SW14" H 8150 5785 50  0000 C CNN
+F 1 "SW_Push" H 8150 5694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 8150 5700 50  0001 C CNN
+F 3 "https://www.tme.eu/gb/Document/997bac45434b6fe2edea26397beb0aa3/TACT-67-DTE.pdf" H 8150 5700 50  0001 C CNN
+F 4 "Push button" H 0   0   50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "TACT-67N-F" H 0   0   50  0001 C CNN "OC"
+	1    8150 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R103
+U 1 1 5B8687DA
+P 8550 5500
+F 0 "R103" V 8343 5500 50  0000 C CNN
+F 1 "10k" V 8434 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 5500 50  0001 C CNN
+F 3 "~" H 8550 5500 50  0001 C CNN
+F 4 "Push button resistor" V 8550 5500 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    8550 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR092
+U 1 1 5B8687E1
+P 7900 5500
+F 0 "#PWR092" H 7900 5350 50  0001 C CNN
+F 1 "+3V3" V 7900 5700 50  0000 C CNN
+F 2 "" H 7900 5500 50  0001 C CNN
+F 3 "" H 7900 5500 50  0001 C CNN
+	1    7900 5500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7950 5500 7900 5500
+Wire Wire Line
+	8350 5500 8400 5500
+$Comp
+L power:GND #PWR093
+U 1 1 5B8687E9
+P 7950 5800
+F 0 "#PWR093" H 7950 5550 50  0001 C CNN
+F 1 "GND" V 7955 5672 50  0000 R CNN
+F 2 "" H 7950 5800 50  0001 C CNN
+F 3 "" H 7950 5800 50  0001 C CNN
+	1    7950 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7950 5800 8050 5800
+Wire Wire Line
+	8350 5800 8350 5500
+Connection ~ 8350 5500
+$Comp
+L power:GND #PWR094
+U 1 1 5B8687F2
+P 8750 5800
+F 0 "#PWR094" H 8750 5550 50  0001 C CNN
+F 1 "GND" V 8755 5672 50  0000 R CNN
+F 2 "" H 8750 5800 50  0001 C CNN
+F 3 "" H 8750 5800 50  0001 C CNN
+	1    8750 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8750 5800 8850 5800
+Wire Wire Line
+	8850 5500 8700 5500
+$Comp
+L Device:C C31
+U 1 1 5B8687FB
+P 8850 5650
+F 0 "C31" H 9000 5700 50  0000 L CNN
+F 1 "0u1" H 9000 5600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8888 5500 50  0001 C CNN
+F 3 "~" H 8850 5650 50  0001 C CNN
+F 4 "Debouncing capacitor" V 8700 5300 50  0001 L CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "CC0805KRX7R9104" H 0   0   50  0001 C CNN "OC"
+	1    8850 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R102
+U 1 1 5B868803
+P 8200 5800
+F 0 "R102" V 7993 5800 50  0000 C CNN
+F 1 "10k" V 8084 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8130 5800 50  0001 C CNN
+F 3 "~" H 8200 5800 50  0001 C CNN
+F 4 "Push button resistor" V 8200 5800 50  0001 C CNN "Comment"
+F 5 "TME" H 0   0   50  0001 C CNN "Distributor"
+F 6 "SMD0805-10K-1%" H 0   0   50  0001 C CNN "OC"
+	1    8200 5800
+	0    -1   1    0   
+$EndComp
+Text HLabel 8950 5500 2    50   Output ~ 0
+PB_RESET
+Wire Wire Line
+	8950 5500 8850 5500
+Connection ~ 8850 5500
+Text HLabel 1250 1700 0    50   Output ~ 0
+SW[0..7]
+Wire Bus Line
+	1250 1700 5900 1700
+$EndSCHEMATC

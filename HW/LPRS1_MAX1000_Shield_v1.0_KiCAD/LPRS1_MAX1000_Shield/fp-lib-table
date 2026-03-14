@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Common_Modules)(type KiCad)(uri ${KIPRJMOD}/../Common/Common_Modules.pretty)(options "")(descr ""))
+  (lib (name Local_Modules)(type KiCad)(uri ${KIPRJMOD}/Local_Modules.pretty)(options "")(descr ""))
+)

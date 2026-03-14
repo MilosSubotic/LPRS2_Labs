@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Audio_Connector)(type Legacy)(uri ${KIPRJMOD}/../Common/Audio_Connector.lib)(options "")(descr ""))
+)

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 26LS31
+D Differential Line Driver
+$ENDCMP
+#
+$CMP 26LS32
+D Differential Line Receiver
+$ENDCMP
+#
+#End Doc Library
