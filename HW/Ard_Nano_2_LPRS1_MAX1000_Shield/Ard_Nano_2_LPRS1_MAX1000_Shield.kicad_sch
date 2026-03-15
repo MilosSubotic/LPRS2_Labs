@@ -1569,16 +1569,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 53.34) (xy 129.54 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "621e4400-23c9-456d-8cb5-ee468abe8972")
-	)
-	(wire
-		(pts
 			(xy 241.3 121.92) (xy 241.3 119.38)
 		)
 		(stroke
@@ -1876,16 +1866,6 @@
 			(type default)
 		)
 		(uuid "ffa158b3-a873-4d03-90b5-994fe01ce389")
-	)
-	(text "Pull out pin from female connector AREF"
-		(exclude_from_sim no)
-		(at 165.608 53.086 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1a3603b2-db99-46b3-ae0d-5a83886f90de")
 	)
 	(text "Top view\nMAX1000 goes here"
 		(exclude_from_sim no)
@@ -2278,16 +2258,6 @@
 			(justify left bottom)
 		)
 		(uuid "75533e1a-837c-4033-9615-160398e09b17")
-	)
-	(label "D10__D12"
-		(at 142.24 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "795ccfd3-f50e-4afa-8f4b-b2b13da2b3ba")
 	)
 	(label "A4__D7"
 		(at 142.24 68.58 180)

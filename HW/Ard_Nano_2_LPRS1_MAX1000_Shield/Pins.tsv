@@ -1,23 +1,23 @@
-Port pin	Ard pin	MAX1000 pin	Shield fun			
-						
-						
-		AIN0	i_pb_up			
-		AIN1	i_pb_center			
-	D13	AIN2	i_pb_down			
-	D11	AIN3	i_pb_left			
-	D10	AIN4	i_pb_right			D12
-						
-						
-	A2	D0	o_n_col_0_or_7segm_a			D9
-	A3	D1	o_n_col_1_or_7segm_b			
-	A4	D2	o_n_col_2_or_7segm_c			
-	A5	D3	o_n_col_3_or_7segm_d			
-	A1	D4	o_n_col_4_or_7segm_e			
-	A0	D5	o_n_col_5_or_7segm_f			
-	D2	D6	o_n_col_6_or_7segm_g			
-	D3	D7	o_n_col_7_or_7segm_dp			
-	D4	D8	o_mux_row_or_digit_0			
-	D5	D9	o_mux_row_or_digit_1			
-	D6	D10	o_mux_row_or_digit_2			
-	D7	D11	o_mux_sel_color_or_7segm_0			
-	D8	D12	o_mux_sel_color_or_7segm_1			
+Port pin	Ard pin	MAX1000 pin	Shield fun
+			
+			
+	D12	AIN0	i_pb_up
+	D10	AIN1	i_pb_center
+	A0	AIN2	i_pb_down
+	D13	AIN3	i_pb_left
+	D11	AIN4	i_pb_right
+			
+			
+	A1	D0	o_n_col_0_or_7segm_a
+	A2	D1	o_n_col_1_or_7segm_b
+	A3	D2	o_n_col_2_or_7segm_c
+	A4	D3	o_n_col_3_or_7segm_d
+	A5	D4	o_n_col_4_or_7segm_e
+	D2	D5	o_n_col_5_or_7segm_f
+	D3	D6	o_n_col_6_or_7segm_g
+	D4	D7	o_n_col_7_or_7segm_dp
+	D5	D8	o_mux_row_or_digit_0
+	D6	D9	o_mux_row_or_digit_1
+	D7	D10	o_mux_row_or_digit_2
+	D8	D11	o_mux_sel_color_or_7segm_0
+	D9	D12	o_mux_sel_color_or_7segm_1

@@ -1136,7 +1136,7 @@
 	(footprint "Module:Arduino_Nano"
 		(layer "F.Cu")
 		(uuid "c8abacae-5e92-4ac1-bab4-ec663b2acd9c")
-		(at 86.36 81.28 90)
+		(at 83.82 81.28 90)
 		(descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
 		(tags "Arduino Nano")
 		(property "Reference" "A1"
@@ -2032,7 +2032,7 @@
 	)
 	(gr_line
 		(start 93.98 83.82)
-		(end 78.74 83.82)
+		(end 81.28 83.82)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2041,7 +2041,7 @@
 		(uuid "0316f150-0b6a-447e-8d06-fe38d3ac92af")
 	)
 	(gr_line
-		(start 78.74 60.96)
+		(start 81.28 60.96)
 		(end 132.08 60.96)
 		(stroke
 			(width 0.05)
@@ -2051,8 +2051,18 @@
 		(uuid "3787e5ce-1a83-480b-a2f3-cd6280e288e9")
 	)
 	(gr_line
-		(start 78.74 83.82)
-		(end 78.74 60.96)
+		(start 132.08 60.96)
+		(end 132.08 86.36)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3a362213-3b00-4704-85c7-e41bdfeb43fb")
+	)
+	(gr_line
+		(start 81.28 83.82)
+		(end 81.28 60.96)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2081,15 +2091,15 @@
 		(uuid "79e1b744-ebfe-41cb-8ae3-8c382f4380fa")
 	)
 	(segment
-		(start 93.98 78.74)
-		(end 124.46 78.74)
+		(start 91.44 78.74)
+		(end 121.92 78.74)
 		(width 2)
 		(layer "F.Cu")
 		(net 7)
 		(uuid "b5dbf312-ddd7-48e7-9273-6afaffb7b12e")
 	)
 	(via
-		(at 93.98 78.74)
+		(at 91.44 78.74)
 		(size 2)
 		(drill 1)
 		(layers "F.Cu" "B.Cu")
@@ -2097,36 +2107,36 @@
 		(uuid "06f00c7a-0908-40bb-883c-a0905b8149ff")
 	)
 	(via
-		(at 124.46 78.74)
+		(at 121.92 78.74)
 		(size 2)
 		(drill 1)
 		(layers "F.Cu" "B.Cu")
 		(net 7)
-		(uuid "a9cb06ff-cd0a-41b5-9d91-51bc80eb2ad0")
+		(uuid "d04741b4-1ae3-4002-b721-8304abd3dc27")
 	)
 	(segment
-		(start 93.98 81.28)
-		(end 93.98 78.74)
+		(start 91.44 81.28)
+		(end 91.44 78.74)
 		(width 2)
 		(layer "B.Cu")
 		(net 7)
 		(uuid "5e8f6e02-1c65-4eda-aa21-fd26282d5bb7")
 	)
 	(segment
-		(start 124.46 78.74)
-		(end 124.46 81.28)
+		(start 121.92 78.74)
+		(end 121.92 83.82)
 		(width 2)
 		(layer "B.Cu")
 		(net 7)
-		(uuid "7044f48b-9e84-488a-9d22-9f7b1ca285a8")
+		(uuid "b3cad6ed-0b43-4edb-8c7a-48e919cc1c18")
 	)
 	(segment
 		(start 129.54 73.66)
-		(end 93.98 73.66)
+		(end 91.44 73.66)
 		(width 2)
 		(layer "F.Cu")
 		(net 10)
-		(uuid "289d2aed-4ce0-41e7-ab75-4f03b1f4402f")
+		(uuid "7eff8c06-d925-453c-835d-0323f8b4607d")
 	)
 	(via
 		(at 129.54 73.66)
@@ -2137,7 +2147,7 @@
 		(uuid "87cd3339-50cb-426c-8994-18535a79186c")
 	)
 	(via
-		(at 93.98 73.66)
+		(at 91.44 73.66)
 		(size 2)
 		(drill 1)
 		(layers "F.Cu" "B.Cu")
@@ -2145,8 +2155,8 @@
 		(uuid "b7ae0abf-2248-41eb-9961-56b8c25d070e")
 	)
 	(segment
-		(start 93.98 73.66)
-		(end 93.98 66.04)
+		(start 91.44 73.66)
+		(end 91.44 66.04)
 		(width 2)
 		(layer "B.Cu")
 		(net 10)
