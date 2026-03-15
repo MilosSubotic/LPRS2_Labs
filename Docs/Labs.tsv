@@ -1,0 +1,22 @@
+Двочас	Тема	Подетема
+0	Git	https://github.com/MilosSubotic/LPRS2_Labs
+		clone
+		
+	Install	https://github.com/MilosSubotic/install_everything
+		install_arduino.sh
+	Arduino IDE	
+		Examples → Basic → Blink
+		Ctrl+U
+	Walk code	
+		setup(), loop()
+		pinMode
+		digitalWrite
+	Low lever	
+		Arduino Nano Pinout.jpeg
+		D13 is PB5
+		ATmega328P datasheet
+		Chapter: I/O Ports
+		Subchapter: register description
+		DDRB
+		PORTB
+		bitwise ops
