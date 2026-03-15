@@ -588,117 +588,6 @@
 				)
 			)
 		)
-		(symbol "LPRS1_MAX1000_Shield-rescue:+2V5-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power_+2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+2V5-power_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+2V5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LPRS1_MAX1000_Shield-rescue:+5V-power"
 			(power)
 			(pin_names
@@ -1523,12 +1412,64 @@
 		)
 	)
 	(no_connect
+		(at 104.14 43.18)
+		(uuid "007b9247-9830-4305-a994-e7527e02b857")
+	)
+	(no_connect
+		(at 248.92 45.72)
+		(uuid "3808fa1f-ae71-4075-afa2-02cab985d702")
+	)
+	(no_connect
+		(at 129.54 43.18)
+		(uuid "43cb0dd7-d0a2-4afb-a80a-18062adb0671")
+	)
+	(no_connect
+		(at 104.14 45.72)
+		(uuid "4bbc9484-a932-461b-adf2-b181e098cc68")
+	)
+	(no_connect
 		(at 238.76 119.38)
 		(uuid "4ec61649-c299-4a68-9ac2-e5ef475ffdf7")
 	)
 	(no_connect
+		(at 236.22 119.38)
+		(uuid "675d524f-a364-49ab-9f93-5fffd3a72101")
+	)
+	(no_connect
+		(at 233.68 45.72)
+		(uuid "864ad9ae-2203-4c52-befa-fd54155136ae")
+	)
+	(no_connect
+		(at 243.84 119.38)
+		(uuid "9c523c67-1e0b-4200-b77b-b9e5b5a613b7")
+	)
+	(no_connect
+		(at 114.3 33.02)
+		(uuid "b6785f8e-1d93-4a6f-bfbc-d9f86686840b")
+	)
+	(no_connect
+		(at 233.68 119.38)
+		(uuid "b68d6525-d955-4d09-84b1-2ffb1b5a5298")
+	)
+	(no_connect
+		(at 116.84 83.82)
+		(uuid "be81b5b7-78bf-4683-a9f2-538463e5c5b2")
+	)
+	(no_connect
+		(at 129.54 45.72)
+		(uuid "c27b5173-ccd5-4346-9f9d-49671fbee0d7")
+	)
+	(no_connect
 		(at 246.38 119.38)
 		(uuid "c5380d16-79b3-49ea-853f-9f3a32fd0f37")
+	)
+	(no_connect
+		(at 119.38 33.02)
+		(uuid "f2299377-04f3-448d-8aa6-0845932694f8")
+	)
+	(no_connect
+		(at 231.14 45.72)
+		(uuid "fa56e4a1-d479-4509-8122-3a135a27ac0f")
 	)
 	(wire
 		(pts
@@ -1599,16 +1540,6 @@
 			(type default)
 		)
 		(uuid "4c3e46c3-8f39-48c5-8946-9898d1a808ca")
-	)
-	(wire
-		(pts
-			(xy 269.24 33.02) (xy 269.24 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb4fd7b-23b3-44d6-a50e-4e00b3a5e418")
 	)
 	(wire
 		(pts
@@ -1792,16 +1723,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 33.02) (xy 248.92 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af06f3ca-1f33-4725-bea5-2cb44661a5d1")
-	)
-	(wire
-		(pts
 			(xy 226.06 132.08) (xy 226.06 119.38)
 		)
 		(stroke
@@ -1889,16 +1810,6 @@
 			(type default)
 		)
 		(uuid "e1a23988-ba5a-42a4-a4d4-24f93c80dcc2")
-	)
-	(wire
-		(pts
-			(xy 257.81 33.02) (xy 248.92 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebecb838-2e9c-47b5-8485-e3cc547f33d2")
 	)
 	(wire
 		(pts
@@ -2001,16 +1912,16 @@
 		)
 		(uuid "7f11f644-a20a-4d06-9516-175886c5c6c1")
 	)
-	(text "AREF"
+	(text "Pull out pin from connector for every you do not use\nA1: 1 2 3 4 17 18 25 26 28 30\nJ1: 8 9 10 12 13\nJ2: 1 7 8"
 		(exclude_from_sim no)
-		(at 251.46 35.56 0)
+		(at 131.064 113.538 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "fc5ffdd8-07ba-47b5-a2d6-d3f9031001c4")
+		(uuid "f3734242-877e-48dc-bb0e-099613123b59")
 	)
 	(label "D4__D5"
 		(at 91.44 53.34 0)
@@ -2522,16 +2433,6 @@
 		)
 		(uuid "c2223615-7073-44c2-ab59-f089a4b1705c")
 	)
-	(label "D3__AIN0"
-		(at 269.24 33.02 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c59db037-786c-4de1-a3a9-7b82e5d878c4")
-	)
 	(label "D11__AIN0"
 		(at 246.38 33.02 270)
 		(effects
@@ -2623,7 +2524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "302e257d-2e7c-4c19-9fcc-874bc4f0a54d")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR1"
 			(at 119.38 95.25 0)
 			(effects
 				(font
@@ -2674,7 +2575,7 @@
 		(instances
 			(project "Ard_Nano_2_LPRS1_MAX1000_Shield"
 				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "#PWR3")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -2689,7 +2590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34119ea4-592f-46fb-87b4-a16415635a3d")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR3"
 			(at 241.3 128.27 0)
 			(effects
 				(font
@@ -2739,7 +2640,7 @@
 		(instances
 			(project "Ard_Nano_2_LPRS1_MAX1000_Shield"
 				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "#PWR4")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -2909,7 +2810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78545228-db22-4bef-8fca-e9c868bd7266")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 232.3084 53.975 90)
 			(effects
 				(font
@@ -3023,7 +2924,7 @@
 		(instances
 			(project "Ard_Nano_2_LPRS1_MAX1000_Shield"
 				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3038,7 +2939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d7c1844-cf9e-4744-96e1-aa9718d7704f")
-		(property "Reference" "#PWR7"
+		(property "Reference" "#PWR4"
 			(at 248.92 118.11 0)
 			(effects
 				(font
@@ -3088,7 +2989,7 @@
 		(instances
 			(project "Ard_Nano_2_LPRS1_MAX1000_Shield"
 				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "#PWR7")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -3103,7 +3004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a91e675f-318f-454b-8ab0-b773fdb0bc75")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR2"
 			(at 121.92 34.29 0)
 			(effects
 				(font
@@ -3153,72 +3054,7 @@
 		(instances
 			(project "Ard_Nano_2_LPRS1_MAX1000_Shield"
 				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "#PWR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LPRS1_MAX1000_Shield-rescue:+2V5-power")
-		(at 257.81 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9f5f265-96c0-4f76-847f-953bb005658d")
-		(property "Reference" "#PWR8"
-			(at 257.81 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 258.191 28.6258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17297a57-ba22-4b3a-9aa8-efdd5f94ef26")
-		)
-		(instances
-			(project "Ard_Nano_2_LPRS1_MAX1000_Shield"
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "#PWR8")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -3233,7 +3069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb072ac3-22a3-4850-a12d-acd14fc2d0c4")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 226.06 106.68 90)
 			(effects
 				(font
@@ -3347,7 +3183,7 @@
 		(instances
 			(project "Ard_Nano_2_LPRS1_MAX1000_Shield"
 				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
