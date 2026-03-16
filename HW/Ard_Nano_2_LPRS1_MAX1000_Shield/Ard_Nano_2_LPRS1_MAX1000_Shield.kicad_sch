@@ -2156,7 +2156,7 @@
 		)
 		(uuid "24949fda-ab03-408f-bec2-3249851890f8")
 	)
-	(label "D11__AIN4"
+	(label "D11__AIN0"
 		(at 91.44 71.12 0)
 		(effects
 			(font
@@ -2186,7 +2186,7 @@
 		)
 		(uuid "34073227-84f4-4e76-9612-1f7cf8592376")
 	)
-	(label "D10__AIN1"
+	(label "D10__AIN4"
 		(at 91.44 68.58 0)
 		(effects
 			(font
@@ -2206,7 +2206,7 @@
 		)
 		(uuid "35e41600-2ef8-49c0-bb06-28d68ce40134")
 	)
-	(label "D12__AIN0"
+	(label "D12__AIN1"
 		(at 91.44 73.66 0)
 		(effects
 			(font
@@ -2456,7 +2456,7 @@
 		)
 		(uuid "9a67d67e-3feb-410b-96a9-bc9faed03585")
 	)
-	(label "D10__AIN1"
+	(label "D12__AIN1"
 		(at 243.84 33.02 270)
 		(effects
 			(font
@@ -2486,7 +2486,7 @@
 		)
 		(uuid "a406b08b-9b2c-4a84-8d63-b6af403c7fb7")
 	)
-	(label "D12__AIN0"
+	(label "D11__AIN0"
 		(at 246.38 33.02 270)
 		(effects
 			(font
@@ -2566,7 +2566,7 @@
 		)
 		(uuid "d523b766-f30d-4321-b27b-ca962b9e174c")
 	)
-	(label "D11__AIN4"
+	(label "D10__AIN4"
 		(at 236.22 33.02 270)
 		(effects
 			(font

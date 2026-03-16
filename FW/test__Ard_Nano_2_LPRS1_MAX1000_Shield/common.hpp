@@ -99,9 +99,9 @@ struct bf_led {
 struct bf_pb {
 	// PINB
 	u8        : 2;
-	u8 center : 1;
 	u8 right  : 1;
 	u8 up     : 1;
+	u8 center : 1;
 	u8 left   : 1;
 	u8        : 2;
 	// DDRB
