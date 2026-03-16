@@ -2116,7 +2116,7 @@
 		)
 		(uuid "11ce50fc-0e16-423d-87e2-15deb86bf656")
 	)
-	(label "A0__AIN2"
+	(label "A0__AIN4"
 		(at 142.24 58.42 180)
 		(effects
 			(font
@@ -2186,7 +2186,7 @@
 		)
 		(uuid "34073227-84f4-4e76-9612-1f7cf8592376")
 	)
-	(label "D10__AIN4"
+	(label "D10__AIN2"
 		(at 91.44 68.58 0)
 		(effects
 			(font
@@ -2386,8 +2386,8 @@
 		)
 		(uuid "88f86c8b-03ea-49e4-a41d-b84171e584fb")
 	)
-	(label "A0__AIN2"
-		(at 241.3 33.02 270)
+	(label "A0__AIN4"
+		(at 236.22 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2566,8 +2566,8 @@
 		)
 		(uuid "d523b766-f30d-4321-b27b-ca962b9e174c")
 	)
-	(label "D10__AIN4"
-		(at 236.22 33.02 270)
+	(label "D10__AIN2"
+		(at 241.3 33.02 270)
 		(effects
 			(font
 				(size 1.27 1.27)

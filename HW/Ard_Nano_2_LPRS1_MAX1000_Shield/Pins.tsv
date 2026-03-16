@@ -3,9 +3,9 @@ Port pin	Ard pin	MAX1000 pin	Shield fun	New
 				
 PB3	D11	AIN0	i_pb_up	
 PB4	D12	AIN1	i_pb_center	
-PC0	A0	AIN2	i_pb_down	
+PB2	D10	AIN2	i_pb_down	
 PB5	D13	AIN3	i_pb_left	
-PB2	D10	AIN4	i_pb_right	
+PC0	A0	AIN4	i_pb_right	
 				
 				
 PC1	A1	D0	o_n_col_0_or_7segm_a	
