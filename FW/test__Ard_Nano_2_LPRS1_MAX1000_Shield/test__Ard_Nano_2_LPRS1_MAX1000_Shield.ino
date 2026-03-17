@@ -72,14 +72,14 @@ void loop() {
 		led.mux_row++;
 		if(led.mux_row == 0){
 			led.mux_color_or_segm++;
-			
-			DEBUG(pb.center);
-			DEBUG(pb.up);
-			DEBUG(pb.down);
-			DEBUG(pb.left);
-			DEBUG(pb.right);
-			Serial.println();	
 		}
+		
+		DEBUG(pb.center);
+		DEBUG(pb.up);
+		DEBUG(pb.down);
+		DEBUG(pb.left);
+		DEBUG(pb.right);
+		Serial.println();
 	}
 	
 
