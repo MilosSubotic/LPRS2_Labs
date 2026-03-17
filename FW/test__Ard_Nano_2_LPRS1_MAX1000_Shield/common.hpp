@@ -99,20 +99,19 @@ struct bf_led {
 struct bf_pb {
 	// PINB
 	u8        : 2;
-	u8 down   : 1;
 	u8 up     : 1;
-	u8 center : 1;
+	u8 right  : 1;
 	u8 left   : 1;
-	u8        : 2;
+	u8        : 3;
 	// DDRB
 	u8        : 2;
-	u8 idd_0  : 4;
-	u8        : 2;
+	u8 idd_0  : 3;
+	u8        : 3;
 	// PORTB
 	u8        : 8;
 
 	// PINC
-	u8 right  : 1;
+	u8 down   : 1;
 	u8        : 7;
 	// DDRC
 	u8 idd_1  : 1;

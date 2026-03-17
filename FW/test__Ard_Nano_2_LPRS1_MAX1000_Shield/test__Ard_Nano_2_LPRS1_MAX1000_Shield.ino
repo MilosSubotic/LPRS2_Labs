@@ -74,7 +74,6 @@ void loop() {
 			led.mux_color_or_segm++;
 		}
 		
-		DEBUG(pb.center);
 		DEBUG(pb.up);
 		DEBUG(pb.down);
 		DEBUG(pb.left);
