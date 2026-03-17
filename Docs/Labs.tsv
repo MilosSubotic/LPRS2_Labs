@@ -1,4 +1,5 @@
 Двочас	Тема	Подетема
+		https://docs.google.com/spreadsheets/d/1Ru7Te7xGvixNoCgwnmozexY-5BtGiAHIxtjs3HmNzNU
 0	Git	https://github.com/MilosSubotic/LPRS2_Labs
 		clone
 		
@@ -20,3 +21,25 @@
 		DDRB
 		PORTB
 		bitwise ops
+		
+	Arch	Exper: plug out power from Ard and plug back, why still works?
+		Volatile vs non-Volatile
+		Flash
+		Von Neuman vs Hardward
+		uCtrl vs uProcessor
+		SRAM vs DRAM: price vs speed&production process
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	Serial buses	
+		https://youtu.be/_QDJdiFO83s
