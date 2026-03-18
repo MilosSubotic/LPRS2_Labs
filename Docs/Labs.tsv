@@ -22,24 +22,34 @@
 		PORTB
 		bitwise ops
 		
-	Arch	Exper: plug out power from Ard and plug back, why still works?
+1	Arch	Exper: plug out power from Ard and plug back, why still works?
 		Volatile vs non-Volatile
 		Flash
 		Von Neuman vs Hardward
 		uCtrl vs uProcessor
 		SRAM vs DRAM: price vs speed&production process
 		
+	new shield	FW/test__Ard_Nano_2_LPRS1_MAX1000_Shield
+		Try
+		read code
+		HW/Ard_Nano_2_LPRS1_MAX1000_Shield/Pins.tsv
+		
+	Time mux	Try
+		How to all 4 7segm digits to work simultaniously: smaller delay
+		segm_lookup
+		set_segm(u8 num) using segm_lookup and led.n_segm_*
+		test all numbers
+		implement stopwatch with cnts
+		pb: start, stop, reset
 		
 		
+	Homework	https://www.youtube.com/watch?v=3ZoRgkgSlVE
 		
-		
-		
-		
-		
+	Matrix	
 		
 		
 		
 		
 		
 	Serial buses	
-		https://youtu.be/_QDJdiFO83s
+		https://www.youtube.com/watch?v=_QDJdiFO83s
