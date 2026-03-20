@@ -1,5 +1,7 @@
 Двочас	Тема	Подетема
 		https://docs.google.com/spreadsheets/d/1Ru7Te7xGvixNoCgwnmozexY-5BtGiAHIxtjs3HmNzNU
+		https://github.com/MilosSubotic/LPRS2_2026
+		
 0	Git	https://github.com/MilosSubotic/LPRS2_Labs
 		clone
 		
@@ -41,6 +43,12 @@
 		test all numbers
 		implement stopwatch with cnts
 		pb: start, stop, reset
+		
+		
+	stopwatch	up: restart
+		down: pause/play – need RE detect
+		left hold: return 1 sec on every 1 sec -  need debouncing
+		right hold: return 1 sec on every 1 sec
 		
 		
 	Homework	https://www.youtube.com/watch?v=3ZoRgkgSlVE
