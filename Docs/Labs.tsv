@@ -78,7 +78,19 @@
 	Homework	https://www.youtube.com/watch?v=_QDJdiFO83s
 		
 		
-6	I2C	JetsonNano_Stepper_Shield
+6	SPI	7segm displays
+		Bit-bang
+		chain of displays
+		
+		
+		
+		Ard_Nano_HUB75_RGB_LED_Screen_Shield
+		32x64 LED screen
+		
+		
+		
+		
+	I2C	JetsonNano_Stepper_Shield
 		PM steppers
 		libserial
 		joypad for jog

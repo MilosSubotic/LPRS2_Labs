@@ -13,8 +13,9 @@ Shields	Ard_Nano_2_LPRS1_MAX1000	8	RGB matrix	7segm	PB
 					
 					
 					
-Low-end inputs	micro pb	1			
-	Matrix keyboard	3?			
+Low-end inputs	Matrix Pbs 4x4	1			
+	Matrix keyboard 4x5	4			
+	Matrix keyboard 4x4				
 	Rotary encoder	TODO 8			
 	Pot	TODO 8			
 					
@@ -30,8 +31,12 @@ High-end inputs	USB joypad	3
 					
 					
 					
-Low-end outputs	7segm SPI	?			
+Low-end outputs	7segm 4-digits	?	SPI		
 					
+					
+					
+High-end outputs	Ard_Nano_HUB75_RGB_LED_Screen_Shield	1			
+	32x64 LED screen	3			
 					
 					
 					
