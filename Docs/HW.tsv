@@ -1,0 +1,51 @@
+Class	HW	Qty			
+					
+MCU brd	Arduino Nano	10			
+	ESP32 with LAN	8			
+	Arduino DUE	>3			
+	Arduino Uno	?			
+					
+					
+Shields	Ard_Nano_2_LPRS1_MAX1000	8	RGB matrix	7segm	PB
+	LED_Bar_PM_Stepper_Shield	TODO 8			
+	JetsonNano_Stepper_Shield	5	I2C	PM steppers	
+					
+					
+					
+					
+Low-end inputs	micro pb	1			
+	Matrix keyboard	3?			
+	Rotary encoder	TODO 8			
+	Pot	TODO 8			
+					
+					
+					
+					
+High-end inputs	USB joypad	3			
+	Bluetooth joypad	2			
+	N64 joypad	3			
+					
+					
+					
+					
+					
+					
+Low-end outputs	7segm SPI	?			
+					
+					
+					
+					
+					
+Motors	PM Stepper	5?			
+	BLDC+Gearbox	?			
+					
+					
+					
+Chassis	Car	1.5			
+	Tank	1			
+					
+					
+					
+					
+					
+	VGA				
