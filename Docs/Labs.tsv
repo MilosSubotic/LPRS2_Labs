@@ -45,7 +45,7 @@
 		pb: start, stop, reset
 		
 		
-	stopwatch	up: restart
+2	stopwatch	up: restart
 		down: pause/play – need RE detect
 		left hold: return 1 sec on every 1 sec -  need debouncing
 		right hold: return 1 sec on every 1 sec
@@ -53,11 +53,49 @@
 		
 	Homework	https://www.youtube.com/watch?v=3ZoRgkgSlVE
 		
-	Matrix	
+		
+3	Matrix	Snake
+		Dr Mario
+		Tetris (too hard)
+		
+4	PC as master	libserial
+		write 7segm
+		write RGB matrix
+		read PB
+		text update cmds
+		binary update cmds
+		binary state cmd
 		
 		
-		
+5	Pull up	Matrix keyboard
+		time mux
+		Rows outputs
+		Column inputs
+		Serial.println()
 		
 		
 	Serial buses	
-		https://www.youtube.com/watch?v=_QDJdiFO83s
+	Homework	https://www.youtube.com/watch?v=_QDJdiFO83s
+		
+		
+6	I2C	JetsonNano_Stepper_Shield
+		PM steppers
+		libserial
+		joypad for jog
+		
+		
+		
+		
+		
+		
+	bitfields	LED_Bar_PM_Stepper_Shield
+		Theory: pins and ULN
+		pulsing bars
+		
+	ADC	Pot analogRead() to uart
+		Signal gen
+		low level ADC
+		IRQ
+		
+		
+	PM	PM stepper driving
