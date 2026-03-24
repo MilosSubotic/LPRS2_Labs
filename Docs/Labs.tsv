@@ -45,11 +45,11 @@
 		pb: start, stop, reset
 		
 		
-2	stopwatch	up: restart
-		down: pause/play – need RE detect
-		left hold: return 1 sec on every 1 sec -  need debouncing
+2	stopwatch	count ms
+		up: restart
+		left hold: return 1 sec on every 1 sec -  need debouncing aka sample on every 10 ms
 		right hold: return 1 sec on every 1 sec
-		
+		down: pause/play – need RE detect
 		
 	Homework	https://www.youtube.com/watch?v=3ZoRgkgSlVE
 		
