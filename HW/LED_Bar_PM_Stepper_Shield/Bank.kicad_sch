@@ -3816,7 +3816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
 			(at 87.63 77.47 0)
 			(effects
 				(font
