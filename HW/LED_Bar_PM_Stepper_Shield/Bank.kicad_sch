@@ -2614,6 +2614,14 @@
 			)
 		)
 	)
+	(no_connect
+		(at 124.46 78.74)
+		(uuid "a960aaf2-a515-4f98-a9f2-20bbd7c5ad71")
+	)
+	(no_connect
+		(at 111.76 78.74)
+		(uuid "b3520d1b-d448-42fa-864b-c8be0e2bc7b9")
+	)
 	(wire
 		(pts
 			(xy 124.46 60.96) (xy 137.16 60.96)
@@ -2693,16 +2701,6 @@
 			(type default)
 		)
 		(uuid "37b1e981-6c24-4c54-a877-c793f449fc28")
-	)
-	(wire
-		(pts
-			(xy 109.22 78.74) (xy 111.76 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "524ac463-2162-495b-af94-9077324bebc1")
 	)
 	(wire
 		(pts
@@ -2903,16 +2901,6 @@
 			(type default)
 		)
 		(uuid "c32925e7-2f88-4294-a2d1-6d9175397747")
-	)
-	(wire
-		(pts
-			(xy 127 78.74) (xy 124.46 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c372fefb-de24-44c5-ae6c-639f7243e8ea")
 	)
 	(wire
 		(pts
@@ -3442,7 +3430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d4f2720-b9e2-44d7-bf58-b92cee920cba")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 152.4 110.4899 0)
 			(effects
 				(font
@@ -3674,7 +3662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d805d0e-9824-4244-b565-94bb4f870896")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 118.11 48.26 0)
 			(effects
 				(font
@@ -4219,77 +4207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da34625f-b18e-478d-8557-d780c14d5cf8")
-		(property "Reference" "#PWR9"
-			(at 102.87 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe1a76ed-692c-4098-be51-42653a740cb1")
-		)
-		(instances
-			(project ""
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af/bf5551d3-91c4-4f6c-b676-3570ac7e1d00"
-					(reference "#PWR9")
-					(unit 1)
-				)
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af/f6cb011b-05f3-41a8-901e-17013340861f"
-					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 109.22 76.2 90)
 		(unit 1)
@@ -4355,77 +4272,6 @@
 				)
 				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af/f6cb011b-05f3-41a8-901e-17013340861f"
 					(reference "#PWR6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fedb0a27-e294-492e-9cd2-0933abf0cc1b")
-		(property "Reference" "#PWR11"
-			(at 133.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 78.7401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f72d75c-a7fa-45f8-836a-6b08f79fbd3b")
-		)
-		(instances
-			(project "LED_Bar_PM_Stepper_Shield"
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af/bf5551d3-91c4-4f6c-b676-3570ac7e1d00"
-					(reference "#PWR11")
-					(unit 1)
-				)
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af/f6cb011b-05f3-41a8-901e-17013340861f"
-					(reference "#PWR12")
 					(unit 1)
 				)
 			)
