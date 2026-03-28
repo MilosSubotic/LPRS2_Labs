@@ -3263,6 +3263,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 149.86 142.24 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3270,7 +3271,7 @@
 		(dnp no)
 		(uuid "0091a411-190d-4d8d-97a5-6ca53f3f217e")
 		(property "Reference" "J2"
-			(at 152.4 140.9699 0)
+			(at 152.4 143.5101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3280,7 @@
 			)
 		)
 		(property "Value" "JST XH 5pin male socket"
-			(at 152.4 143.5099 0)
+			(at 152.4 140.9701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3316,7 @@
 			)
 		)
 		(property "Comment" "channel 1"
-			(at 159.004 146.558 0)
+			(at 159.004 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,6 +3425,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 149.86 111.76 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3431,7 +3433,7 @@
 		(dnp no)
 		(uuid "2d4f2720-b9e2-44d7-bf58-b92cee920cba")
 		(property "Reference" "J1"
-			(at 152.4 110.4899 0)
+			(at 152.4 113.0301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3442,7 @@
 			)
 		)
 		(property "Value" "JST XH 5pin male socket"
-			(at 152.4 113.0299 0)
+			(at 152.4 110.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3478,7 @@
 			)
 		)
 		(property "Comment" "channel 0"
-			(at 160.782 116.586 0)
+			(at 160.782 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
