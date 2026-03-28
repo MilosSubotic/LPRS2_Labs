@@ -2254,6 +2254,17 @@
 		)
 		(uuid "65f08d25-2ffa-4b01-a196-25488b862c22")
 	)
+	(text "pin 3: filled\npin 4: pull\npin 17: pull\npin 18: pull"
+		(exclude_from_sim no)
+		(at 179.578 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a35a15de-f259-4a9b-909e-f93fd604f72f")
+	)
 	(text "GND\nFILLED\nA\nDA\nVCC\nDB"
 		(exclude_from_sim no)
 		(at 197.358 82.55 0)
@@ -2674,7 +2685,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "39fe7f19-28d7-4de2-87f0-e6a262f08bac")
 		(property "Reference" "R2"
 			(at 166.37 114.554 90)
@@ -2741,7 +2752,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "487e4642-2ec7-4df0-a6b1-372a4d49c3a2")
 		(property "Reference" "R1"
 			(at 166.37 109.474 90)
@@ -2855,7 +2866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "Pot, enc"
+		(property "Comment" "Pot"
 			(at 193.548 125.73 0)
 			(effects
 				(font
