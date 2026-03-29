@@ -1,0 +1,28 @@
+Port pin	Ard pin	Sch	Bank	LED bar	Channel	Robo Hand	Pot	rot enc
+								
+PD0	D0		0	green byte b0	0	UART Rx		
+PD1	D1		0	green byte b1	0	UART Tx		
+PD2	D2		0	green byte b2	0	Solenoid		
+PD3	D3		0	green byte b3	0	Solenoid		
+PD4	D4		0	green byte b4	1	PM0		
+PD5	D5		0	green byte b5	1	PM0		
+PD6	D6		0	green byte b6	1	PM0		
+PD7	D7		0	green byte b7	1	PM0		
+								
+PB0	D8		1	red nibble0 b0	0	PM1		
+PB1	D9		1	red nibble0 b1	0	PM1		
+PB2	D10		1	red nibble0 b2	0	PM1		
+PB3	D11		1	red nibble0 b3	0	PM1		
+								
+PC0	A0		1	red nibble1 b0	1	PM3		
+PC1	A1		1	red nibble1 b1	1	PM3		
+PC2	A2		1	red nibble1 b2	1	PM3		
+PC3	A3		1	red nibble1 b3	1	PM3		
+								
+	A6	A0					pot0	enc0_pb
+PB4	D12	DB0						enc0_b
+PB5	D13	DA0						enc0_a
+								
+	A7	A1				pot enc 0	pot1	enc1_pb
+PC4	A4	DB1				pot enc 2		enc1_b
+PC5	A5	DA1				pot enc 1		enc1_a
