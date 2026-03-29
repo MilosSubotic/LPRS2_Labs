@@ -455,127 +455,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers hide)
@@ -1965,16 +1844,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 162.56 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83ebfed6-51e3-457d-8d7b-09fa3e15b6ea")
-	)
-	(wire
-		(pts
 			(xy 99.06 106.68) (xy 101.6 106.68)
 		)
 		(stroke
@@ -2012,16 +1881,6 @@
 			(type default)
 		)
 		(uuid "8dc33eae-88b3-4639-baa0-04bee4ee516d")
-	)
-	(wire
-		(pts
-			(xy 160.02 111.76) (xy 162.56 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f12d5ff-79c9-4cde-9d4b-7dc72902782a")
 	)
 	(wire
 		(pts
@@ -2155,16 +2014,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 116.84) (xy 162.56 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df5a0b58-7286-4d24-80b6-6c89f63f3607")
-	)
-	(wire
-		(pts
 			(xy 170.18 111.76) (xy 187.96 111.76)
 		)
 		(stroke
@@ -2182,16 +2031,6 @@
 			(type default)
 		)
 		(uuid "e70cac9b-0259-485f-94fe-0dad05bce051")
-	)
-	(wire
-		(pts
-			(xy 160.02 83.82) (xy 162.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea7090b3-87ee-429a-a135-e59932d3f6b9")
 	)
 	(wire
 		(pts
@@ -2233,7 +2072,7 @@
 		)
 		(uuid "0a3711bb-1dbd-4ba9-a1ac-b187205ac6a7")
 	)
-	(text "GND\nFILLED\nA\nDA\nVCC\nDB"
+	(text "VCC\nFILLED\nA\nDA\nGND\nDB"
 		(exclude_from_sim no)
 		(at 197.358 110.49 0)
 		(effects
@@ -2265,7 +2104,7 @@
 		)
 		(uuid "a35a15de-f259-4a9b-909e-f93fd604f72f")
 	)
-	(text "GND\nFILLED\nA\nDA\nVCC\nDB"
+	(text "VCC\nFILLED\nA\nDA\nGND\nDB"
 		(exclude_from_sim no)
 		(at 197.358 82.55 0)
 		(effects
@@ -2546,7 +2385,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 76.2 270)
+		(at 185.42 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2555,7 +2394,7 @@
 		(fields_autoplaced yes)
 		(uuid "30b90445-6f6e-463a-9ce5-06b93d2478ec")
 		(property "Reference" "#PWR1"
-			(at 179.07 76.2 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 76.1999 90)
+			(at 181.61 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 76.2 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +2421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 76.2 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 76.2 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,207 +2445,6 @@
 			(project ""
 				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
 					(reference "#PWR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33a5d8cb-9785-4e26-a3a3-7dcfbcb8d10a")
-		(property "Reference" "#PWR9"
-			(at 153.67 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f4c8ca6-6e59-4a90-bf2f-f002b679ad0f")
-		)
-		(instances
-			(project ""
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "#PWR9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "39fe7f19-28d7-4de2-87f0-e6a262f08bac")
-		(property "Reference" "R2"
-			(at 166.37 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 166.37 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "For_Rasterboard:R_Axial_DIN0207_L6.3mm_D2.5mm_Pinf_Horizontal"
-			(at 166.37 118.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f0a3427-0360-47b1-bdaa-68c2a3709dfb")
-		)
-		(pin "1"
-			(uuid "f4479fe6-af07-4662-9293-7b69cc88405c")
-		)
-		(instances
-			(project "LED_Bar_PM_Stepper_Shield"
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "487e4642-2ec7-4df0-a6b1-372a4d49c3a2")
-		(property "Reference" "R1"
-			(at 166.37 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 166.37 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "For_Rasterboard:R_Axial_DIN0207_L6.3mm_D2.5mm_Pinf_Horizontal"
-			(at 166.37 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47dbaade-1fb0-4003-8072-7b91fdc2ea8c")
-		)
-		(pin "1"
-			(uuid "fe7ab7a3-3e5d-4dd3-ac91-76d66aa01efe")
-		)
-		(instances
-			(project ""
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2967,7 +2605,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 104.14 270)
+		(at 185.42 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2976,7 +2614,7 @@
 		(fields_autoplaced yes)
 		(uuid "5324f2b4-3a4a-48e8-9b9e-1e45732694f6")
 		(property "Reference" "#PWR3"
-			(at 179.07 104.14 0)
+			(at 179.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +2623,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 104.1399 90)
+			(at 181.61 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +2632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 104.14 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +2641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 104.14 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +2650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 104.14 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +2901,7 @@
 	)
 	(symbol
 		(lib_id "LPRS1_MAX1000_Shield-rescue:+5V-power")
-		(at 185.42 86.36 90)
+		(at 185.42 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3271,7 +2909,7 @@
 		(dnp no)
 		(uuid "645e6ead-4d5e-4ad4-82e5-6720528cd9c9")
 		(property "Reference" "#PWR2"
-			(at 189.23 86.36 0)
+			(at 189.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +2918,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 180.086 86.36 90)
+			(at 180.086 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +2926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 86.36 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +2935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 86.36 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +2944,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 86.36 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,73 +3118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 166.37 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a6dc3f0-79c2-47f2-86cb-0a446c213514")
-		(property "Reference" "R3"
-			(at 166.37 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 166.37 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "For_Rasterboard:R_Axial_DIN0207_L6.3mm_D2.5mm_Pinf_Horizontal"
-			(at 166.37 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "55404a8f-a1b1-4087-9903-1a53a8f6455b")
-		)
-		(pin "1"
-			(uuid "b9dda2e2-b9bb-4ced-b22b-c45695f4bacb")
-		)
-		(instances
-			(project "LED_Bar_PM_Stepper_Shield"
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 63.5 138.43 0)
 		(unit 1)
@@ -3612,7 +3183,7 @@
 	)
 	(symbol
 		(lib_id "LPRS1_MAX1000_Shield-rescue:+5V-power")
-		(at 185.42 114.3 90)
+		(at 185.42 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3620,7 +3191,7 @@
 		(dnp no)
 		(uuid "8c6c3534-5333-41b2-9bba-7832f40829a7")
 		(property "Reference" "#PWR4"
-			(at 189.23 114.3 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +3200,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 180.086 114.3 90)
+			(at 180.086 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 114.3 0)
+			(at 185.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 114.3 0)
+			(at 185.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 114.3 0)
+			(at 185.42 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,73 +3448,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.02 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a70597a9-5532-4944-b1c1-1b51a5c4a8d5")
-		(property "Reference" "#PWR11"
-			(at 153.67 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "186dc4aa-b446-4476-a0f5-830265d1ad67")
-		)
-		(instances
-			(project "LED_Bar_PM_Stepper_Shield"
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "#PWR11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LPRS1_MAX1000_Shield-rescue:+5V-power")
 		(at 152.4 30.48 0)
 		(unit 1)
@@ -4076,73 +3580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 166.37 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "becd181a-6515-41ce-8be0-dada8a7d5b0d")
-		(property "Reference" "R4"
-			(at 166.37 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 166.37 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "For_Rasterboard:R_Axial_DIN0207_L6.3mm_D2.5mm_Pinf_Horizontal"
-			(at 166.37 90.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7af70515-3791-4cc5-b9a0-0cca6b666585")
-		)
-		(pin "1"
-			(uuid "336fb2b1-8839-46db-9626-6b996d567c62")
-		)
-		(instances
-			(project "LED_Bar_PM_Stepper_Shield"
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 63.5 144.78 0)
 		(unit 1)
@@ -4201,140 +3638,6 @@
 			(project "LED_Bar_PM_Stepper_Shield"
 				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d587e075-042a-4bbd-93d7-486484f14fb3")
-		(property "Reference" "#PWR10"
-			(at 153.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68a6998e-6b5b-485f-babd-fb2045849461")
-		)
-		(instances
-			(project "LED_Bar_PM_Stepper_Shield"
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e96c77b2-c84a-4a1b-b951-29d3e78a1ee9")
-		(property "Reference" "#PWR12"
-			(at 153.67 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "609785c2-e0fd-4c83-9257-1943d457475e")
-		)
-		(instances
-			(project "LED_Bar_PM_Stepper_Shield"
-				(path "/f032f0f5-bc12-4ceb-9247-9ea9649022af"
-					(reference "#PWR12")
 					(unit 1)
 				)
 			)
