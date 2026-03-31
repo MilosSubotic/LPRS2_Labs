@@ -3,16 +3,13 @@
 
 void setup() {
 	// green LED bar
-    DDRD = 0xff;
+	DDRD = 0xff;
 
-    // red LED bar, lower nibble
-    DDRB = 0x0f;
+	// red LED bar, lower nibble
+	DDRB = 0x0f;
 
-    // red LED bar, upper nibble
-    DDRC = 0x0f;
-
-
-    
+	// red LED bar, upper nibble
+	DDRC = 0x0f;
 }
 
 
@@ -21,12 +18,13 @@ void loop() {
 
 	if (b == 0) {
 		PORTD = 0x01;
-		PORTB = 0x01;
+		PORTB = 0x1;
+		PORTC = 0x0;
 	} else if (b == 4) {
 		PORTD <<= 1;
 
-		PORTB = 0x00;
-		PORTC = 0x01;
+		PORTB = 0x0;
+		PORTC = 0x1;
 	} else {
 		PORTD <<= 1;
 		PORTB <<= 1;
