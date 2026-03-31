@@ -6,10 +6,10 @@ void setup() {
 	DDRD = 0xff;
 
 	// red LED bar, lower nibble
-	DDRB = 0x0f;
+	DDRB = 0xf;
 
 	// red LED bar, upper nibble
-	DDRC = 0x0f;
+	DDRC = 0xf;
 }
 
 
