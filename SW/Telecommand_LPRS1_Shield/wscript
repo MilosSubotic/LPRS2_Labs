@@ -1,0 +1,66 @@
+
+#!/usr/bin/env python3
+# encoding: utf-8
+
+'''
+@author: Your Name <your.email@example.com>
+@license: MIT
+'''
+
+###############################################################################
+
+import os
+import sys
+import waflib
+
+###############################################################################
+
+one_file_programs = [
+	'telecmd.cpp',
+]
+
+def prerequisites(ctx):
+	if sys.platform.startswith('linux'):
+		# Ubuntu.
+		ctx.exec_command2('apt -y install libserial-dev')
+
+
+def options(opt):
+	opt.load('compiler_cxx')
+
+def configure(cfg):
+	cfg.load('compiler_cxx')
+	# Check for required libraries
+	cfg.check_cc(lib='serial', uselib_store='serial', mandatory=True)
+	# Debugging flags
+	cfg.env.append_value('CXXFLAGS', ['-g', '-rdynamic'])
+	cfg.env.append_value('LINKFLAGS', ['-lserial'])
+	# Add include path from the FW include
+	fw_include = cfg.srcnode.find_node('../../FW/Telecommand_LPRS1_Shield/')
+	if fw_include:
+		cfg.env.INCLUDES_USER = [fw_include.abspath()]
+	else:
+		cfg.fatal('FW include directory not found')
+
+def build(bld):
+	for source in one_file_programs:
+		target_name, _ = os.path.splitext(os.path.basename(source))
+		bld.program(
+			target=target_name,
+			source=source,
+			includes=bld.env.INCLUDES_USER,
+			use=['serial'],
+			install_path=False
+		)
+
+
+###############################################################################
+
+def exec_command2(self, cmd, **kw):
+	kw['stdout'] = None
+	kw['stderr'] = None
+	ret = self.exec_command(cmd, **kw)
+	if ret != 0:
+		self.fatal('Command "{}" returned {}'.format(cmd, ret))
+
+setattr(waflib.Context.Context, 'exec_command2', exec_command2)
